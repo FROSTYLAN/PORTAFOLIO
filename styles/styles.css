@@ -42,7 +42,7 @@ ul>li{
     z-index: -1;
 }
 #presentacion img{
-    width: 99.9vw;
+    width: 99vw;
     height: 80vw;
 }
 h1{
@@ -334,3 +334,21 @@ h1{
     margin-left: 10%;
 }
 /* END CONTACTO */
+
+/* START FOOTER */
+footer{
+    margin-top: 10rem;
+    width: 99vw;
+    background-color: var(--green);
+    height: 10rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+footer h1{
+    color: var(--white);
+
+}
+footer p{
+    margin-top: 1rem;
+}
+/* END FOOTER */
