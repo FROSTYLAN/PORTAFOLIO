@@ -78,4 +78,26 @@ h1{
     font-size: 1.2vw;
     font-weight: 600;
 }
+#redes img{
+    width: 4vw;
+    height: 4vw;
+    
+}
+.red-presentacion{
+    text-align: center;
+    padding-top: 1vw;
+    width: 6vw;
+    height: 6vw;
+    background-color: var(--white);
+    border-radius: 50px;
+}
+#redp1{
+    margin: 37vw 0vw 0vw 30vw;
+}
+#redp2{
+    margin: 37vw 0vw 0vw 64.5vw;
+}
+#redp3{
+    margin: 43.5vw 0vw 0vw 47vw;
+}
 /* END PRESENTACION */
