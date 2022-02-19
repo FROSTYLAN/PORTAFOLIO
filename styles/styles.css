@@ -274,3 +274,63 @@ h1{
     color: black;
 }
 /* END EXPERIENCIA */ 
+
+/* START PORTAFOLIO */
+#portafolio{
+    margin-top: 6rem;
+}
+#portafolio h1{
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    font-size: 2.8rem;
+}
+#portafolio div{
+    padding-top: 7rem;
+    text-align: center;
+    height: 15rem;
+    color: black;
+}
+/* END PORTAFOLIO */
+
+/* START CONTACTO */
+#contacto{
+    margin-top: 6rem;
+}
+#contacto img{
+    width: 6rem;
+    height: 6rem;
+}
+#contacto p{
+    margin-top: .75rem;
+    font-size: .75rem;
+}
+#contacto h1{
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    font-size: 2.8rem;
+}
+#container-contact{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #000;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+.contact{
+    padding-top: 2rem;
+    background-color: var(--otherWhite);
+    width: 10rem;
+    height: 10rem;
+    border-radius: 5rem;
+    margin-bottom: 1rem;
+}
+#c1{
+    margin-right: 10%;
+}
+#c2{
+    margin-left: 10%;
+}
+/* END CONTACTO */
