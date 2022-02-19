@@ -100,4 +100,40 @@ h1{
 #redp3{
     margin: 43.5vw 0vw 0vw 47vw;
 }
+#colaboracion{
+    text-align: center;
+    width: 61vw;
+    height: 15vw;
+    background-color: var(--otherWhite);
+    color: black;
+    margin-left: 19.5vw;
+    margin-top: 53vw;
+    padding-top: 3vw;
+    font-size: 1.8vw;
+}
+.form{
+     width: 39vw;
+     padding-left: 4vw;
+}
+.form input{
+    margin-top: 2.5vw;
+    width: 35vw;
+    height: 3.9vw;
+    border-color: #e6ded8;
+    color: gray;
+    background-color: #e6ded8;
+    border-radius:1.5vw;
+}
+.boton1 a{
+    text-align: center;
+    position: absolute;
+    margin-left: 41vw;
+    margin-top: -4vw;
+    padding-top: .5vw;
+    background-color: var(--green);
+    color: white;
+    width: 15vw;
+    height: 3.9vw;
+    border-radius: 1.5vw;
+}
 /* END PRESENTACION */
