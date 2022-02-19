@@ -34,6 +34,24 @@ ul>li{
     font-weight: 300;
     margin-right: 4vw;
 }
+input#menu{
+    visibility:hidden;
+}
+input#menu~ul{
+    background-color: var(--green);
+    color: #FFFFFF;
+    width: 100%;
+    list-style: none;
+    height: 100%;
+    position: absolute;
+    right: 100%;
+    transition: all 300ms linear;
+}
+
+input#menu:checked ~ ul{
+    right: 0;
+}
+
 /* END NAV */
 
 /* START PRESENTACION */
@@ -352,3 +370,19 @@ footer p{
     margin-top: 1rem;
 }
 /* END FOOTER */
+
+@media only screen and (min-width:1060px) {
+    label{
+        display: none;
+    }
+
+    input#menu~ul{
+        position: static;
+        background-color: transparent;
+        display: flex;
+    }
+
+    input#menu~ul>li{
+        padding: 0 1rem;
+    }
+}
