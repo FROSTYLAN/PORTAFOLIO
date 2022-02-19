@@ -137,3 +137,20 @@ h1{
     border-radius: 1.5vw;
 }
 /* END PRESENTACION */
+
+/* START DESCRIPCION */
+#descripcion{
+    color: black;
+    margin-top: 75vw;
+    margin-left: 8vw;
+}
+#descripcion h1{
+    color: black;
+    font-weight: 600;
+    font-size: 2.8rem;
+}
+#descripcion p{
+    margin: 1rem 12vw .5rem 4vw;
+    font-weight: 300;
+}
+/* END DESCRIPCION */
