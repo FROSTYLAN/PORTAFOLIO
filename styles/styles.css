@@ -171,3 +171,36 @@ h1{
     font-size: 500;
 }
 /* END DESCRIPCION */
+
+/* START ESTUDIOS */
+#estudios{
+    margin-top: 3rem;
+}
+#estudios div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#estudios h1{
+    color: black;
+    font-weight: 600;
+    font-size: 2.8rem;
+}
+.estudio{
+    display: flex;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 5px;
+    background-color: var(--otherWhite);
+    color: black;
+    flex-direction: column;
+}
+.estudio img{
+    width: 10vw;
+    margin-top: -4vw;
+}
+.estudio section{
+    
+}
+/* END ESTUDIOS */ 
