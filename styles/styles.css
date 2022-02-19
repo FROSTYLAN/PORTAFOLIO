@@ -151,6 +151,23 @@ h1{
 }
 #descripcion p{
     margin: 1rem 12vw .5rem 4vw;
+    text-align: justify;
     font-weight: 300;
+}
+.boton2{
+    width: 78vw;
+    text-align: center;
+    padding-top: 2rem;
+}
+.boton2 p{
+    display: inline-flex;
+    align-items: center;
+    background-color: var(--green);
+    color: white;
+    width:20rem;
+    height: 4rem;
+    border-radius: 4rem;
+    padding-left: 7rem;
+    font-size: 500;
 }
 /* END DESCRIPCION */
