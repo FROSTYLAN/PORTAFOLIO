@@ -6,24 +6,29 @@
     --white: #FFFFFF;
 }
 *{
-    margin: auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
     background-color: var(--white);
+    font-family: 'Poppins', sans-serif;
+    color: var(--white);
 }
 
 /*  START NAV */
 
 nav{
-    width: 100vw;
-    height: 5rem;
     background-color: var(--green);
+    padding: 1rem;
+}
+ul{
     display: flex;
     justify-content: end;
-    align-items: center;
-    padding: .5rem 1.25rem;
 }
-
+ul>li{
+    list-style: none;
+    font-weight: 300;
+    margin-right: 4vw;
+}
 /* END NAV */
