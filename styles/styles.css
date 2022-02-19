@@ -252,9 +252,25 @@ h1{
     width: 60%;
 }
 /* END HABILIDADES */ 
-#experiencia{
-    width: 80%;
-}
-/* START EXPERIENCIA */ 
 
+/* START EXPERIENCIA */ 
+#experiencia{
+    margin-top: 6rem;
+    padding-top: 2rem;
+    margin-left: 10%;
+    width: 80%;
+    background-color: var(--otherWhite);
+}
+#experiencia h1{
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    font-size: 2.8rem;
+}
+#experiencia div{
+    padding-top: 7rem;
+    text-align: center;
+    height: 15rem;
+    color: black;
+}
 /* END EXPERIENCIA */ 
