@@ -11,7 +11,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: var(--white);
+    background-color: #000000;
     font-family: 'Poppins', sans-serif;
     color: var(--white);
 }
@@ -19,8 +19,10 @@ body{
 /*  START NAV */
 
 nav{
-    background-color: var(--green);
+    position: absolute;
+    width: 99vw;
     padding: 1rem;
+    padding-top: 2.5rem;
 }
 ul{
     display: flex;
@@ -32,3 +34,10 @@ ul>li{
     margin-right: 4vw;
 }
 /* END NAV */
+
+/* START PRESENTACION */
+#presentacion img{
+    width: 99.9vw;
+    height: 80vw;
+}
+/* END PRESENTACION */
